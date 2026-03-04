@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="light" lang="it">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Parma Serrande | Riparazione Serrande Parma dal 1970</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#0a7413",
+              "background-light": "#f6f8f6",
+              "background-dark": "#102212",
+            },
+            fontFamily: {
+              "display": ["Public Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+    <div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2 md:hidden">
+        <a class="flex items-center justify-center bg-[#25D366] text-white p-4 rounded-full shadow-lg" href="https://wa.me/390000000000">
+            <span class="material-symbols-outlined">chat</span>
+        </a>
+        <a class="flex items-center justify-center bg-primary text-white p-4 rounded-full shadow-lg" href="tel:+390000000000">
+            <span class="material-symbols-outlined">call</span>
+        </a>
+    </div>
+
+    <div class="relative flex h-auto min-screen w-full flex-col bg-white dark:bg-background-dark group/design-root overflow-x-hidden">
+        <header class="flex items-center justify-between border-b border-solid border-slate-100 dark:border-slate-800 px-4 md:px-40 py-4 sticky top-0 bg-white/95 dark:bg-background-dark/95 backdrop-blur-md z-40">
+            <h2 class="text-xl font-black uppercase">Parma Serrande</h2>
+        </header>
+
+        <main class="flex-1">
+            <div class="px-4 md:px-40 py-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="flex flex-col gap-8 order-2 lg:order-1">
+                        <h1 class="text-4xl md:text-6xl font-black">Serranda Bloccata a Parma?</h1>
+                        <p class="text-lg text-slate-600">Riparazione professionale dal 1970.</p>
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <div class="relative bg-slate-200 aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
+                            <img class="w-full h-full object-cover" alt="Tecnico serrande" src="IMG_2425.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="px-4 md:px-40 py-20" id="dove-siamo">
+                <div class="max-w-[1280px] mx-auto">
+                    <h2 class="text-3xl font-black mb-6">Operiamo in tutta Parma</h2>
+                    <div class="rounded-3xl overflow-hidden shadow-xl h-[400px]">
+                        <img class="w-full h-full object-cover" alt="Mappa area" src="IMG_2425.png"/>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
